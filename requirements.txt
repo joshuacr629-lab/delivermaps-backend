@@ -3,7 +3,8 @@ uvicorn
 sqlalchemy
 pymysql
 python-jose[cryptography]
-passlib[bcrypt]
+passlib[bcrypt]==1.7.4
 pydantic
 cryptography
 requests
+bcrypt==4.0.1
