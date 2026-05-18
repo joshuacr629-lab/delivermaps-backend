@@ -21,7 +21,7 @@ from models import Base, User, Usuario, Pedido, Cliente, Conductor
 # ==========================================
 # CONFIG
 # ==========================================
-SECRET_KEY = "delivermaps_super_secret_key"
+SECRET_KEY = "dM7#kP9$xQnL2@vRtW5!yBsE8^jFhN3&uCgA6*mZoKp4JiYeXd"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 480
 
