@@ -11,7 +11,7 @@ import random
 import string
 import requests
 import json
-import os
+
 from jose import JWTError, jwt
 from passlib.context import CryptContext
 
@@ -21,11 +21,11 @@ from models import Base, User, Usuario, Pedido, Cliente, Conductor
 # ==========================================
 # CONFIG
 # ==========================================
-SECRET_KEY = os.getenv("API_KEY")
+SECRET_KEY = "dM7#kP9$xQnL2@vRtW5!yBsE8^jFhN3&uCgA6*mZoKp4JiYeXd"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 480
 
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GOOGLE_API_KEY = "AIzaSyDS1-kPw16T5zdnj3FVQK_km1btwcJWln4"
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 bearer_scheme = HTTPBearer()
